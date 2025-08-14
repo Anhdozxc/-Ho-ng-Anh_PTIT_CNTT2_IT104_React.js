@@ -50,12 +50,12 @@ class Libraby<T extends Book> {
   removeBook(id: number): void {
     this.books = this.books.filter((book) => book.id !== id);
   }
-  updateBook(id: number, updateBook: T): void {
-    let book = this.books.find((book) => book.id === id);
-    if (book) {
-      book = updateBook;
+  updateBook(id: number, updatedBook: T): void {
+    const index = this.books.findIndex((book) => book.id === id);
+    if (index !== -1) {
+      this.books[index] = updatedBook;
     } else {
-      console.log("Khong tim thay sach");
+      console.log("Không tìm thấy sách");
     }
   }
   listBook(): T[] {
