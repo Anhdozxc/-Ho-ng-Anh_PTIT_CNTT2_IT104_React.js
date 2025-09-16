@@ -1,0 +1,112 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "student_name": "Nguyen Van A",
+      "email": "a@example.com",
+      "address": "Ha Noi",
+      "phone": "0900000001",
+      "status": true,
+      "created_at": "2025-09-16T08:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "student_name": "Tran Thi B",
+      "email": "b@example.com",
+      "address": "Da Nang",
+      "phone": "0900000002",
+      "status": false,
+      "created_at": "2025-09-16T08:05:00.000Z"
+    },
+    {
+      "id": "3",
+      "student_name": "Le Van C",
+      "email": "c@example.com",
+      "address": "Hai Phong",
+      "phone": "0900000003",
+      "status": true,
+      "created_at": "2025-09-16T08:10:00.000Z"
+    },
+    {
+      "id": "4",
+      "student_name": "Pham Thi D",
+      "email": "d@example.com",
+      "address": "HCM",
+      "phone": "0900000004",
+      "status": true,
+      "created_at": "2025-09-16T08:15:00.000Z"
+    },
+    {
+      "id": "5",
+      "student_name": "Hoang Van E",
+      "email": "e@example.com",
+      "address": "Can Tho",
+      "phone": "0900000005",
+      "status": false,
+      "created_at": "2025-09-16T08:20:00.000Z"
+    },
+    {
+      "id": 1758032177647,
+      "student_name": "Nguyen Van Moi",
+      "email": "new@example.com",
+      "address": "Ha Noi",
+      "phone": "0900000006",
+      "status": true,
+      "created_at": "2025-09-16T14:16:17.647Z"
+    },
+    {
+      "id": 1758032234413,
+      "student_name": "Nguyen Van Toan",
+      "email": "new@example.com",
+      "address": "Ha Noi",
+      "phone": "0900000006",
+      "status": true,
+      "created_at": "2025-09-16T14:17:14.413Z"
+    },
+    {
+      "id": 1758032234433,
+      "student_name": "Nguyen Van Toan",
+      "email": "new@example.com",
+      "address": "Ha Noi",
+      "phone": "0900000006",
+      "status": true,
+      "created_at": "2025-09-16T14:17:14.433Z"
+    },
+    {
+      "id": 1758032261611,
+      "student_name": "Nguyen Van Toan",
+      "email": "new@example.com",
+      "address": "Ha Noi",
+      "phone": "0900000006",
+      "status": true,
+      "created_at": "2025-09-16T14:17:41.611Z"
+    },
+    {
+      "id": 1758032261619,
+      "student_name": "Nguyen Van Toan",
+      "email": "new@example.com",
+      "address": "Ha Noi",
+      "phone": "0900000006",
+      "status": true,
+      "created_at": "2025-09-16T14:17:41.619Z"
+    },
+    {
+      "id": 1758032293559,
+      "student_name": "Nguyen Van Toan",
+      "email": "new@example.com",
+      "address": "Ha Noi",
+      "phone": "0900000006",
+      "status": true,
+      "created_at": "2025-09-16T14:18:13.559Z"
+    },
+    {
+      "id": 1758032293578,
+      "student_name": "Nguyen Van Toan",
+      "email": "new@example.com",
+      "address": "Ha Noi",
+      "phone": "0900000006",
+      "status": true,
+      "created_at": "2025-09-16T14:18:13.578Z"
+    }
+  ]
+}
