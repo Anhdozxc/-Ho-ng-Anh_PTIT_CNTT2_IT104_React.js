@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": "2542",
+      "title": "Quét nhà",
+      "completed": true
+    },
+    {
+      "id": "751f",
+      "title": "Lau nhà",
+      "completed": true
+    },
+    {
+      "id": "2501",
+      "title": "Giặt quần áo",
+      "completed": false
+    },
+    {
+      "id": "63cd",
+      "title": "Phơi quần áo",
+      "completed": false
+    },
+    {
+      "id": "c15d",
+      "title": "Nấu cơm",
+      "completed": false
+    },
+    {
+      "id": "8124",
+      "title": "Rửa xe",
+      "completed": false
+    }
+  ]
+}
