@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": "4b11",
+      "title": "Ô tô",
+      "image": "https://st.quantrimang.com/photos/image/2019/10/31/hinh-nen-o-to-dep-4.jpg",
+      "content": "Nội dung bài viết về ô tô",
+      "status": "published",
+      "createdAt": "2025-09-18T02:29:50.824Z"
+    },
+    {
+      "id": "5442",
+      "title": "xe máy",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.pursU1sIOjZkWIrBFKm3-AHaFY?pid=Api&P=0&h=180",
+      "content": "Nội dung bài viết về xe máy",
+      "status": "blocked",
+      "createdAt": "2025-09-18T12:40:50.283Z"
+    }
+  ]
+}

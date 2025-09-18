@@ -1,0 +1,157 @@
+:root {
+  --border: #e5e7eb;
+  --ok: #22c55e;
+  --warn: #f59e0b;
+  --danger: #ef4444;
+  --blue: #2563eb;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+.container {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+/* controls */
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.controls .left {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.input,
+.select {
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: #fff;
+}
+.select {
+  min-width: 180px;
+}
+
+/* table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th,
+.table td {
+  padding: 14px;
+  border-top: 1px solid white;
+  text-align: left;
+}
+.table thead th {
+  background: #f9fafb;
+  border-top: none;
+}
+.thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+/* badge */
+.badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  display: inline-block;
+}
+.badge.ok {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+/* buttons */
+.btn {
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background: #fff;
+  cursor: pointer;
+}
+.btn.primary {
+  background: blue;
+  color: #fff;
+  border-color: blue;
+}
+.btn.warn {
+  background: #f59e0b1a;
+  color: #92400e;
+  border-color: #f59e0b;
+}
+.btn.edit {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #f59e0b;
+}
+.btn.danger {
+  background: #fee2e2;
+  color: #991b1b;
+  border-color: #ef4444;
+}
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: #0006;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 860px;
+  width: 100%;
+  border: 1px solid white;
+}
+.card header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 10px 0;
+}
+.input.text {
+  height: 40px;
+}
+.footer {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
