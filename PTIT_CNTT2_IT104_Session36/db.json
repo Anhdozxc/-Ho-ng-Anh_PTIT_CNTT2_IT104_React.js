@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "2",
+      "taskName": "Làm bài tập TS",
+      "priority": "MEDIUM",
+      "completed": true
+    },
+    {
+      "id": "d29a",
+      "taskName": "Rửa xe",
+      "priority": "MEDIUM",
+      "completed": false
+    },
+    {
+      "id": "e0d9",
+      "taskName": "Học Redux Toolkit",
+      "priority": "HIGH",
+      "completed": false
+    }
+  ]
+}
